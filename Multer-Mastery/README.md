@@ -187,7 +187,7 @@ npm --version     # Should be 6 or higher
 
 ```bash
 # Step 1: Clone the repository
-git clone https://github.com/yourusername/multer-mastery.git
+git clone https://github.com/kaif1119/MERN-Stack-Guide.git
 
 # Step 2: Enter the directory
 cd multer-mastery
