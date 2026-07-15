@@ -1,0 +1,82 @@
+﻿<svg viewBox="0 0 900 310" xmlns="http://www.w3.org/2000/svg" width="900" height="310">
+  <defs>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowStrong" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="mernGrad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#00E5FF"/>
+      <stop offset="40%"  stop-color="#AA00FF"/>
+      <stop offset="75%"  stop-color="#FF00E5"/>
+      <stop offset="100%" stop-color="#00E676"/>
+    </linearGradient>
+    <linearGradient id="guideGrad" x1="0" y1="0" x2="450" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#FF6D00"/>
+      <stop offset="50%"  stop-color="#FF1744"/>
+      <stop offset="100%" stop-color="#F50057"/>
+    </linearGradient>
+    <linearGradient id="subGrad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#00E5FF"/>
+      <stop offset="50%"  stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#00E676"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%"   stop-color="#0D1529"/>
+      <stop offset="100%" stop-color="#060A10"/>
+    </radialGradient>
+    <linearGradient id="divGrad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#AA00FF" stop-opacity="0.8"/>
+      <stop offset="70%"  stop-color="#FF1744" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00E676" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="310" fill="url(#bgGlow)" rx="14"/>
+  <rect x="1" y="1" width="898" height="308" fill="none" stroke="#00E5FF" stroke-width="1" rx="13" opacity="0.25"/>
+  <rect x="3" y="3" width="894" height="304" fill="none" stroke="#AA00FF" stroke-width="0.5" rx="11" opacity="0.15"/>
+
+  <circle cx="18" cy="18" r="3" fill="#00E5FF" opacity="0.7"/>
+  <circle cx="882" cy="18" r="3" fill="#00E676" opacity="0.7"/>
+  <circle cx="18"  cy="292" r="3" fill="#FF6D00" opacity="0.7"/>
+  <circle cx="882" cy="292" r="3" fill="#F50057" opacity="0.7"/>
+
+  <!-- MERN STACK ASCII Art -->
+  <text font-family="'Courier New', Courier, monospace" font-size="11.2" fill="url(#mernGrad)" filter="url(#glow)" xml:space="preserve">
+    <tspan x="14" y="50">&#x2588;&#x2588;&#x2588;&#x2557;   &#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2588;&#x2557;   &#x2588;&#x2588;&#x2557;    &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;  &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2557;  &#x2588;&#x2588;&#x2557;</tspan>
+    <tspan x="14" dy="16">&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;  &#x2588;&#x2588;&#x2551;    &#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x255D;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x2588;&#x2588;&#x2551; &#x2588;&#x2588;&#x2554;&#x255D;</tspan>
+    <tspan x="14" dy="16">&#x2588;&#x2588;&#x2554;&#x2588;&#x2588;&#x2588;&#x2588;&#x2554;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;  &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2554;&#x255D;&#x2588;&#x2588;&#x2554;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2551;    &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;   &#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;     &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2554;&#x255D;</tspan>
+    <tspan x="14" dy="16">&#x2588;&#x2588;&#x2551;&#x255A;&#x2588;&#x2588;&#x2554;&#x255D;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x255D;  &#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551;&#x255A;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551;    &#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;     &#x2588;&#x2588;&#x2554;&#x2550;&#x2588;&#x2588;&#x2557;</tspan>
+    <tspan x="14" dy="16">&#x2588;&#x2588;&#x2551; &#x255A;&#x2550;&#x255D; &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551;  &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551; &#x255A;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;    &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2551;  &#x2588;&#x2588;&#x2551;&#x255A;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551;  &#x2588;&#x2588;&#x2557;</tspan>
+    <tspan x="14" dy="16">&#x255A;&#x2550;&#x255D;     &#x255A;&#x2550;&#x255D;&#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x255A;&#x2550;&#x255D;  &#x255A;&#x2550;&#x255D;&#x255A;&#x2550;&#x255D;  &#x255A;&#x2550;&#x2550;&#x2550;&#x255D;   &#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;   &#x255A;&#x2550;&#x255D;   &#x255A;&#x2550;&#x255D;  &#x255A;&#x2550;&#x255D; &#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x255A;&#x2550;&#x255D;  &#x255A;&#x2550;&#x255D;</tspan>
+  </text>
+
+  <!-- GUIDE ASCII Art -->
+  <text font-family="'Courier New', Courier, monospace" font-size="11.2" fill="url(#guideGrad)" filter="url(#glow)" xml:space="preserve">
+    <tspan x="14" y="164"> &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2557;   &#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;</tspan>
+    <tspan x="14" dy="16">&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D; &#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;</tspan>
+    <tspan x="14" dy="16">&#x2588;&#x2588;&#x2551;  &#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;  &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;</tspan>
+    <tspan x="14" dy="16">&#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;  &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x255D;</tspan>
+    <tspan x="14" dy="16">&#x255A;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2554;&#x255D;&#x255A;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2554;&#x255D;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2554;&#x255D;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;</tspan>
+    <tspan x="14" dy="16"> &#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;  &#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D; &#x255A;&#x2550;&#x255D;&#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D; &#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;</tspan>
+  </text>
+
+  <line x1="14" y1="267" x2="886" y2="267" stroke="url(#divGrad)" stroke-width="1"/>
+
+  <text font-family="'Courier New', Courier, monospace" font-size="13.5" fill="url(#subGrad)"
+        letter-spacing="5" font-weight="bold" text-anchor="middle" x="450" y="290"
+        filter="url(#glowStrong)">M A S T E R Y   R E P O S I T O R Y</text>
+
+</svg>
