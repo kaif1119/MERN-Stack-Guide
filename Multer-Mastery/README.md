@@ -2,15 +2,7 @@
 <div align="center">
 
 <!-- BANNER -->
-```
-███╗   ███╗██╗   ██╗██╗  ████████╗███████╗██████╗
-████╗ ████║██║   ██║██║  ╚══██╔══╝██╔════╝██╔══██╗
-██╔████╔██║██║   ██║██║     ██║   █████╗  ██████╔╝
-██║╚██╔╝██║██║   ██║██║     ██║   ██╔══╝  ██╔══██╗
-██║ ╚═╝ ██║╚██████╔╝███████╗██║   ███████╗██║  ██║
-╚═╝     ╚═╝ ╚═════╝ ╚══════╝╚═╝   ╚══════╝╚═╝  ╚═╝
-         M A S T E R Y   R E P O S I T O R Y
-```
+<img src="banner.svg" alt="Multer Mastery — Node.js File Upload Guide" width="900"/>
 
 # 🚀 Multer Mastery — Complete Learning Repository
 
@@ -189,8 +181,8 @@ npm --version     # Should be 6 or higher
 # Step 1: Clone the repository
 git clone https://github.com/kaif1119/MERN-Stack-Guide.git
 
-# Step 2: Enter the directory
-cd multer-mastery
+# Step 2: Enter the Multer-Mastery directory
+cd MERN-Stack-Guide/Multer-Mastery
 
 # Step 3: Go to any example
 cd examples/01-basic-upload
